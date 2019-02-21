@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render NotesContainer component correctly 1`] = `
+<NotesContainer
+  classes={
+    Object {
+      "root": "NotesContainer-root-1",
+      "spaceAround": "NotesContainer-spaceAround-2",
+    }
+  }
+  handleRemoveNote={[MockFunction]}
+  notes={
+    Array [
+      Object {
+        "id": 1,
+        "noteDescription": "Note 1 description",
+        "noteTitle": "Note 1",
+      },
+      Object {
+        "id": 2,
+        "noteDescription": "Note 2 description",
+        "noteTitle": "Note 2",
+      },
+      Object {
+        "id": 3,
+        "noteDescription": "Note 3 description",
+        "noteTitle": "Note 3",
+      },
+      Object {
+        "id": 4,
+        "noteDescription": "Note 4 description",
+        "noteTitle": "Note 4",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Render NotesContainer component with notes correctly 1`] = `
+<NotesContainer
+  classes={
+    Object {
+      "root": "NotesContainer-root-1",
+      "spaceAround": "NotesContainer-spaceAround-2",
+    }
+  }
+  handleRemoveNote={[MockFunction]}
+  notes={
+    Array [
+      Object {
+        "id": 1,
+        "noteDescription": "Note 1 description",
+        "noteTitle": "Note 1",
+      },
+      Object {
+        "id": 2,
+        "noteDescription": "Note 2 description",
+        "noteTitle": "Note 2",
+      },
+      Object {
+        "id": 3,
+        "noteDescription": "Note 3 description",
+        "noteTitle": "Note 3",
+      },
+      Object {
+        "id": 4,
+        "noteDescription": "Note 4 description",
+        "noteTitle": "Note 4",
+      },
+    ]
+  }
+/>
+`;

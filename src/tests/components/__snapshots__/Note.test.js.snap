@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Note component correctly 1`] = `
+<Note
+  classes={
+    Object {
+      "card": "Note-card-2",
+      "deleteIcon": "Note-deleteIcon-4",
+      "pos": "Note-pos-3",
+      "root": "Note-root-1",
+    }
+  }
+  handleRemoveNote={[MockFunction]}
+  note={
+    Object {
+      "id": 1,
+      "noteDescription": "Note 1 description",
+      "noteTitle": "Note 1",
+    }
+  }
+/>
+`;
